@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Rubik:ital,wght@0,300;0,800;1,900&display=swap');
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: blue;
+	padding: 10px 10px 10px 30px;
+	box-shadow: 1px 1px 1px black;
+}
+body{
+	font-family: 'Nerko One', cursive;
+	background-color: lightblue;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+p{
+	font-size: 25px;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+footer{
+	display: block;
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 15px;
+	background-color: #eb8117;
+	color: blue;
+	font-size: 23px;
+}
+.fa{
+	content: border;
+}
+.icons{
+	text-align: center;
+	fo
+	padding: 40px 0;
+	color: blue;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+div{
+	display: block;
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+h2{
+	font-size: 25px;
+	color: blue;
+	text-shadow: black;
+}
+
+    /*Nav Stuff*/
+nav{
+	background-color: #eb8117;
+	border-top: 5px solid blue;
+	border-bottom: 5px solid blue;
+}
+body{
+	font-family: 'Nerko One'. cursive;
+	margin: 0;
+	text-align: left;
+	color: #eb8117;
+}
+nav ul{
+	list-style-type: none;
+	margin: 12px;
+	text-align: center;
+	font-size: 25px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: blue;
+}
+nav a:visited{
+	color: purple;
+}
+nav a:hover{
+	color: darkgrey;
+}
+nav a:active{
+	color: red;
+}
+i.fa{
+	color: blue;
+	font-size: 5em;
+}
+
+
+	/*For Tablets*/
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+	/* For Smartphones*/
+@media only screen and (max-width: 769px){
+	h1{
+		font-size: 1.5em;
+	}
+}
